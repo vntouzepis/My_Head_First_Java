@@ -15,6 +15,7 @@ public class BeerSong_book{
 		if (beerNum==1){
 			word="bottle";// singular, as in ONE bottle.
 		}
+		
 			if (beerNum>0){
 			System.out.println(beerNum+" "+word +" of beer on the wall.\n");}
 			else {
