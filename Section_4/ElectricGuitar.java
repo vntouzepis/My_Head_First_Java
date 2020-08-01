@@ -16,6 +16,7 @@ return numOfPicks;
 }
 
 void setNumOfPicks(int num){
+	if(num>2)
 	numOfPicks=num;
 }
 
@@ -26,5 +27,11 @@ return rockStarUsesIt;
 void setRockStarUsesIt(boolean yesOrNo){
 	rockStarUsesIt=yesOrNo;
 }
+
+
+int calcArea(int h, int w){
+return h*w;
+}
+
 
 }
