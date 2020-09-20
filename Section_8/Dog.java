@@ -1,0 +1,11 @@
+ 
+ class Dog extends Animal{
+
+  
+    }
+
+	
+	
+
+  
+
