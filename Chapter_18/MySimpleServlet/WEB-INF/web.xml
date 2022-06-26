@@ -1,0 +1,11 @@
+<web-app>
+   <servlet>
+      <servlet-name>myWish</servlet-name>
+      <servlet-class>Servlets.MyServletA</servlet-class>
+   </servlet>
+
+   <servlet-mapping>
+      <servlet-name>myWish</servlet-name>
+      <url-pattern>/servlets/getServletA</url-pattern>
+   </servlet-mapping>
+</web-app>

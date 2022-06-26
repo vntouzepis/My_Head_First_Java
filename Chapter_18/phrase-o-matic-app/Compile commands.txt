@@ -1,0 +1,6 @@
+C:\Program Files\Apache Software Foundation\Tomcat 10.0\webapps\phrase-o-matic-app\WEB-INF\source>javac -d ../classes Servlets\PhraseOMatic.java
+C:\Program Files\Apache Software Foundation\Tomcat 10.0\webapps\phrase-o-matic-app\WEB-INF\source>javac -cp C:\Users\Vasilis\Desktop\Chapter_18\servlet-api.jar;..\classes  -d ../classes Servlets\KathyServlet.java
+
+or
+C:\Program Files\Apache Software Foundation\Tomcat 10.0\webapps\phrase-o-matic-app\WEB-INF\source>javac -cp C:\Users\Vasilis\Desktop\Chapter_18\servlet-api.jar -d ../classes Servlets\*.java
+
